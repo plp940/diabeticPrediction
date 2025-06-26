@@ -34,4 +34,5 @@ def user_input_features():
         prediction = model.predict(input_data_scaled)[0][0]
         result = "Diabetic" if prediction > 0.5 else "Not Diabetic"
         st.success(f"The model predicts: {result} (Probability: {prediction:.2f})")
+
 user_input_features()
