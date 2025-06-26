@@ -10,7 +10,7 @@ import streamlit as st
 
 # Load the dataset
 model = keras.models.load_model("Diabetic_model.h5")
-scaler = joblib.load('scaler.pkl')
+scaler = joblib.load('Scaler.pkl')
 
 st.set_page_config(page_title="Diabetes Prediction App", page_icon=":hospital:", layout="wide") 
 st.title("Diabetes Prediction App")
