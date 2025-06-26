@@ -2,6 +2,5 @@ numpy
 pandas
 joblib
 scikit-learn
-tensorflow==2.9.3
+tensorflow
 streamlit
-keras==2.9.0
